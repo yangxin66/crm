@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-		你好
+<!-- 同步的方式 -->
+		<form action="login" method="get">
+		   <input name="uname"/>
+		   <input type="submit" value='ok'>
+		</form>
+		
+		${sessionScope.result}
 </body>
 </html>
