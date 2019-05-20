@@ -26,4 +26,13 @@
    	 <servlet-name>saveUser</servlet-name>
    	 <url-pattern>/saveUser</url-pattern>
    </servlet-mapping>
+         <!-- selcetStudentMsg请求 -->
+   <servlet>
+   	 <servlet-name>selcetStudentMsg</servlet-name>
+   	 <servlet-class>com.zr.controller.SearchController</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	 <servlet-name>selcetStudentMsg</servlet-name>
+   	 <url-pattern>/selcetStudentMsg</url-pattern>
+   </servlet-mapping>
 </web-app>
