@@ -35,4 +35,14 @@
    	 <servlet-name>selcetStudentMsg</servlet-name>
    	 <url-pattern>/selcetStudentMsg</url-pattern>
    </servlet-mapping>
+   
+            <!-- showmenu请求 -->
+   <servlet>
+   	 <servlet-name>showmenu</servlet-name>
+   	 <servlet-class>com.zr.controller.showMenusController</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	 <servlet-name>showmenu</servlet-name>
+   	 <url-pattern>/showMenus</url-pattern>
+   </servlet-mapping>
 </web-app>
